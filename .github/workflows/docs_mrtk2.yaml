@@ -1,6 +1,7 @@
 name: Docs Validation (MRTK2)
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
